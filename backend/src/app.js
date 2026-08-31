@@ -1,7 +1,7 @@
 const express      = require('express');
 const cors         = require('cors');
 const weatherRoutes = require('./routes/weatherRoutes');
-const debugRoutes   = require('./routes/debugRoutes');  // Phase 3: cache inspection
+const debugRoutes   = require('./routes/debugRoutes');  //cache inspection
 const errorHandler  = require('./middleware/errorHandler');
 
 

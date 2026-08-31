@@ -27,7 +27,7 @@ async function fetchWeatherForCity(city) {
   const cityId   = city.CityCode;   
   const cityName = city.CityName;   
 
-  //Cache check
+  //Cache checking
 
   const cached = cacheService.get(cityId);
   if (cached !== undefined) {
