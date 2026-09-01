@@ -1,5 +1,7 @@
 # WeatherSense - Weather Comfort Index
 
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEiQyiQvY9AGGeHANko-IowPmgQ_QvC1_MAHEEW_qlYkndPZb5XBcu4u7FFQk5b6r9SGIiwgxR7RZBMURFdikj9WZARSuToS7i-1DPNabOOn6rYN20wCfob1A7JlRBnY8PYEccpsusc2bIxNcRwmyGVVreCBNNfBDm6whVBQiASAj5X1ReR4_DIN_Hxjpn7z" alt="WeatherSense Dashboard" width="200" height="200">
+
 A secured full-stack MERN application that fetches live weather data for 10 major
 cities, scores each city with a custom **Comfort Index formula** (0–100), and
 displays the ranked results in a responsive React dashboard — gated behind Auth0
