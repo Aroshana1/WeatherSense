@@ -145,7 +145,7 @@ finalScore = round(clamp(
 - **Cloudiness (10%)** — Partial shade (20–50%) is ideal: some protection from glare, not fully overcast. Minor factor because cloud preference is highly subjective.
 - **Visibility (10%)** — Usually adequate; only extreme fog or storms produce dangerously low visibility. The linear ramp rewards any improvement from 0 to 8000 m, with full marks beyond.
 
-### Trade-off to mention in the interview
+
 
 > This formula treats each factor **independently and linearly** (additive model).
 > Real physiological comfort uses non-linear interactions — for example, NOAA's
