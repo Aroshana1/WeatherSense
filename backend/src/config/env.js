@@ -26,7 +26,7 @@ module.exports = {
   OWM_API_KEY: process.env.OWM_API_KEY,
   MONGO_URI: process.env.MONGO_URI || '',          // Optional 
   NODE_ENV: process.env.NODE_ENV || 'development',
-  // Auth0 — added in Phase 5
+  // Auth0 
   AUTH0_DOMAIN: process.env.AUTH0_DOMAIN,    
   AUTH0_AUDIENCE: process.env.AUTH0_AUDIENCE,  
 };

@@ -1,0 +1,53 @@
+/*
+ * index.css — Global stylesheet for WeatherSense 
+ * ──────────────────────────────────────────────────────────────────────────
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11", "tnum";
+  }
+
+  /* Custom scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0B1626;
+  }
+  html:not(.dark) ::-webkit-scrollbar-track {
+    background: #F5F9FD;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #244563;
+    border-radius: 4px;
+  }
+  html:not(.dark) ::-webkit-scrollbar-thumb {
+    background: #D9E5F2;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #38BDF8;
+  }
+  html:not(.dark) ::-webkit-scrollbar-thumb:hover {
+    background: #0EA5E9;
+  }
+}
+
+/* Subtle background textures  */
+.station-bg-light {
+  background-color: #F5F9FD;
+  background-image: radial-gradient(#D9E5F2 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.station-bg-dark {
+  background-color: #071220;
+  background-image: radial-gradient(rgba(56, 189, 248, 0.08) 1px, transparent 1px);
+  background-size: 32px 32px;
+}

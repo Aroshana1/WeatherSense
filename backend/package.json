@@ -7,18 +7,25 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --verbose"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "axios": "^1.20.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "express-oauth2-jwt-bearer": "^1.10.0",
+    "node-cache": "^5.1.2"
   },
   "devDependencies": {
+    "jest": "^30.5.0",
     "nodemon": "^3.1.14"
   }
 }
